@@ -18,9 +18,9 @@ public class Main
         double creditBalance = 5000.00;
         double interestRate = 0.17;
         double creditInterest = creditBalance * interestRate;
-        System.out.println("Your interest due after one month is: $" + creditInterest);
+        System.out.println("Your " + interestRate + " rate interest on a balance of $" + creditBalance + " due after one month is: $" + creditInterest);
         creditBalance= creditBalance + creditInterest;
         creditInterest = creditBalance * interestRate;
-        System.out.println("Your interest due after two months is: $" + creditInterest);
+        System.out.println("Your " + interestRate + " rate interest on a balance of $" + creditBalance + " due after two months is: $" + creditInterest);
     }
 }
